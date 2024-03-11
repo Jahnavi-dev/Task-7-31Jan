@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Page</title>
+    <!-- <style> 
+    table{
+        border:3px solid black;
+        border-spacing:5px ;
+        border-collapse: collapse;
+        }
+        td{
+            border:1px solid black;
+            border-spacing:80px ;
+        }
+    </style> -->
+</head>
+<body>
+    <table>
+        <tr>
+            <td><label for="First_Name">First_Name:</label></td>
+            <td>&nbsp&nbsp&nbsp&nbsp</td>
+            <td><input type="text" id="First_Name" name="First_Name" required/></td>
+                
+            <td><label for="Second_Name">Second_Name:</label></td>
+            <td>&nbsp&nbsp&nbsp&nbsp</td>
+            <td><input type="text" id="Second_Name" name="Second_Name" required/></td>
+        </tr>
+        <tr>
+            <td><label for="Email">Email:</label></td>
+            <td>&nbsp&nbsp&nbsp&nbsp</td>  
+            <td><input type="email" id="Email" name="Email"/></td>
+
+            <td><label for="Ph_no">Ph_no:</label></td>
+            <td>&nbsp&nbsp&nbsp&nbsp</td>
+            <td><input type="tel" id="Ph_no" name="Ph_no"/></td>
+        </tr>
+        <tr>
+            <td><label for="Place">Place:</label></td>
+                <td>&nbsp&nbsp&nbsp&nbsp</td>
+                <td><select id="Place" name="Place">
+                    <optgroup label="Hyderabad">
+                        <option value="Chandanagar">Chandanagar</option>
+                        <option value="Nizampet">Nizampet</option>
+                        <option value="Madeenaguda">Madeenaguda</option>
+                    </optgroup>
+                    <optgroup label="Bengaluru">
+                        <option value="JNTU">JNTU</option>
+                        <option value="KPHB">KPHB</option>
+                        <option value="Allwyns">Allwyns</option>
+                    </optgroup>
+                    <optgroup label="Mumbai">
+                        <option value="Madhapur">Madhapur</option>
+                        <option value="Hitech-City">Hitech-City</option>
+                        <option value="Shilparamam">Shilparamam</option>
+                    </optgroup>
+                </select>
+                </td>
+            <td><label for="City">City:</label></td>
+                <td>&nbsp&nbsp&nbsp&nbsp</td>
+                <td><input list="city_list" id="City" name="City"/>
+                <datalist id="city_list">
+                    <optgroup label="Select City">
+                        <option value="Hyderabad">Hyderabad</option>
+                        <option value="Bengaluru">Bengaluru</option>
+                        <option value="Mumbai">Mumbai</option>
+                    </optgroup>
+                </datalist></td>
+        </tr>
+        <tr>
+            <td><label for="Set_Password">Set_Password:</label></td>
+            <td>&nbsp&nbsp&nbsp&nbsp</td>
+            <td><input type="password" id="Set_Password" name="Set_Password"/></td>
+                
+            <td><label for="Re_enter_Password">Re_enter_Password:</label></td>
+            <td>&nbsp&nbsp&nbsp&nbsp</td>
+            <td><input type="password" id="Re_enter_Password" name="Re_enter_Password"/></td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" id="Checkbox" name="Checkbox"/>Agree</td>
+                <td><a href="https://affiliate.flipkart.com/terms-of-use" target="_blank" download>Terms and Conditions</a>,</td>
+            <td>By clicking it you will agree</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="./Task8.2.html"><input type="submit" value="SignUp" /></a>
+            </td>
+        </tr>
+        
+
+    </table>
+</body>
+</html>
